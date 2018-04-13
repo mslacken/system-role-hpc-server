@@ -14,11 +14,11 @@
     <label>HPC Managment Node</label>
   </hpc_server>
   <hpc_server_description>
-    <label>• xfs as default filesystem
-• include HPC enabled libraries
-• disabled firewall, kdump services
-• controller for slurm workload manager 
-• large scratch partition /var/tmp
+    <label>• Uses xfs as the default root filesystem
+• Includes HPC-enabled libraries
+• Disables firewall and kdump services
+• Installs controller for the Slurm Workload Manager 
+• Mounts a large scratch partition to /var/tmp
 </label>
   </hpc_server_description>
 </texts>
